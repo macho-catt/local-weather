@@ -42,6 +42,7 @@ const App = () => {
           <div>City: {weatherData.name}, {weatherData.sys.country}</div>
           <div>Temp: {weatherData.main.temp} F</div>
           <div>{weatherData.weather[0].main}</div>
+          <img src={`http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`} alt="Weather Icon" />
         </div>
       }
     </div>
