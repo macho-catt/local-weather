@@ -36,7 +36,9 @@ const App = () => {
 
   return (
     <div>
-      Weather App
+      <header>
+        Weather App
+      </header>
       {isWeatherDataObtained &&
         <div>
           <div>City: {weatherData.name}, {weatherData.sys.country}</div>
